@@ -8,20 +8,17 @@ featured: true
 hidden: true
 ---
 
-If you already have a full Ruby development environment with all headers and RubyGems installed (see Jekyll’s requirements), you can create a new Jekyll site by doing the following:
+You want to run interactive jupyter notebooks in a blog post? It's never been easier. 
+ 
+Here is an example:
 
-```ruby
-# Install Jekyll and Bundler gems through RubyGems
-gem install jekyll bundler
-
-# Create a new Jekyll site at ./myblog
-jekyll new myblog
-
-# Change into your new directory
-cd myblog
-
-# Build the site on the preview server
-bundle exec jekyll serve
-
-# Now browse to http://localhost:4000
-```
+<pre data-executable="true" data-language="python">print("Hello!")</pre>
+<pre data-executable="true" data-language="python">1+1</pre>
+<pre data-executable="true" data-language="python">
+%matplotlib inline
+import numpy as np
+import matplotlib.pyplot as plt
+x = np.linspace(0,10)
+plt.plot(x, np.sin(x))
+plt.plot(x, np.cos(x))
+</pre>

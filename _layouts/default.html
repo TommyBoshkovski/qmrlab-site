@@ -19,7 +19,15 @@
 <link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
     
 <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
-    
+  <script src="{{ site.baseurl }}/assets/js/thebe_status_field.js" type="text/javascript"></script>
+  <link   href="{{ site.baseurl }}/assets/css/thebe_status_field.css" rel="stylesheet" type="text/css"/>
+
+  <script><!-- use window.onload to defer the execution until the page is loaded !-->
+    window.onload = function () {
+      thebe_place_status_field();
+      thebe_activate_cells();
+    };
+  </script>    
 </head>
     
 {% if jekyll.environment == 'production' %}

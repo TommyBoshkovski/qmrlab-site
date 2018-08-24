@@ -90,3 +90,13 @@ fig = dict(data=data, layout=layout)
 
 py.iplot(fig, filename='Sine Wave Slider')
 </pre>
+
+
+<pre data-executable="true" data-language="octave">
+%use octave
+% This part is for qMRLab
+startup;
+qMRgenBatch(mt_ratio,pwd);
+% If you run mt_ratio_batch, fit will happen but inline plot will fail. Octave & imshow issues. 
+% But we can transfer this to the Python and display it with Plotly.. later...
+</pre>

@@ -38,7 +38,7 @@ You want to run interactive jupyter notebooks in a blog post? It's never been ea
  
 Here is an example:
 
-Status: <span class="thebe_status_field"></span>
+Kernel Status: <span class="thebe_status_field"></span>
 
 
 <pre data-executable="true" data-language="octave">
@@ -50,7 +50,6 @@ t = 0:0.01:10;
 
 <pre data-executable="true" data-language="octave">
 %use Python3
-
 %get t --from Octave
 import plotly
 import plotly.plotly as py

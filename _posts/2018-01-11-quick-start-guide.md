@@ -52,6 +52,7 @@ t = 0:0.01:10;
 %use Python3
 
 %get t --from Octave
+import plotly
 import plotly.plotly as py
 import plotly.graph_objs as go
 import numpy as np

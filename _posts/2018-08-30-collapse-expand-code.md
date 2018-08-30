@@ -9,8 +9,7 @@ hidden: true
 ---
  
 
- <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
  </script>
 <script type="text/x-thebe-config">
       {
@@ -29,7 +28,7 @@ hidden: true
   
         
       }
-    </script>
+</script>
 <script type="text/javascript" src="https://unpkg.com/thebelab@^0.3.0"></script>
 
 

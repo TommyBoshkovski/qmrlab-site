@@ -582,6 +582,26 @@ License: https://www.wowthemes.net/freebies-license/
  iframe {
     max-width:100%;
 }
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
  @media (min-width:768px) {
      .jumbotron.fortags {
          margin-bottom:-50px;
